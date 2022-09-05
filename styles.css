@@ -3,8 +3,8 @@
 
 html {
     background-color: hsl(30, 38%, 92%);
-    box-sizing: border-box;
     font-size: 62.5%;
+    box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -24,37 +24,52 @@ html {
     align-items: center;
 }
 
-.main_img {
+.img {
     margin: 0;
-}
-
-.main_img img {
     height: 55rem;
 }
 
-.text {
+.img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem 0 0 1.5rem ;
+}
+
+
+.description {
+    height: 55rem;
+    padding: 0 3.5rem;
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 55rem;
-    padding: 0 2.5rem;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 28rem;
+    border-radius: 0 1.5rem 1.5rem 0;
 }
 
-.text p {
+.description p {
     color: hsl(228, 12%, 48%);
 }
 
-.text button {
-    background-color: hsl(158, 36%, 37%);
-    color: hsl(0, 0%, 100%);
+.description h1,.prices h1 {
+    margin: 0;
+    font-weight: 700;
+    font-family: "Fraunces", sans-serif;
 }
+
+.description h1 {
+    font-size: 3.5rem;
+    color: hsl(212, 21%, 14%);
+}
+
 
 .prices {
 
 }
 
 .prices h1 {
+    font-size: 3rem;
     color: hsl(158, 36%, 37%);
 }
 
@@ -63,22 +78,28 @@ html {
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
     font-weight: 500;
+    font-size: 1.4rem;
 }
 
-.description {
-    height: 45.5rem;
-    width: 35rem;
+.description button {
+    width: 80%;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 0.5rem;
+    border: none;
+    padding: 1rem;
 }
 
-.description h1,.prices h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    font-family: "Fraunces", sans-serif;
-}
 
-.description h1 {
-    color: hsl(212, 21%, 14%);
-}
+
+
+
+
+
+
+
+
 
 
 .attribution {
