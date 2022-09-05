@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Fraunces');
+
+html {
+    background-color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.main_img {
+    margin: 0;
+}
+
+.main_img img {
+    height: 55rem;
+}
+
+.text {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text p {
+    color: hsl(228, 12%, 48%);
+}
+
+.text button {
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+}
+
+.prices {
+
+}
+
+.prices h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+
+.prices span {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+
+.description {
+    height: 45.5rem;
+    width: 35rem;
+}
+
+.description h1,.prices h1 {
+    font-weight: 700;
+    font-family: "Fraunces", sans-serif;
+}
+
+.description h1 {
+    color: hsl(212, 21%, 14%);
+}
+
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
